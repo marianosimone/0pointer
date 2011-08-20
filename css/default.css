@@ -1,0 +1,212 @@
+body {
+	font-family: Palatino, Georgia, serif;
+	font-size: 18px;
+    word-spacing: 0.1em;
+
+    /* body is centered */
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+html {
+    background-color: #E7EBD5;
+
+    background-image: url('/img/flower.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 40%;
+    -moz-background-size: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: #376F7B;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+p, ul {
+    line-height: 25px;
+    width: 600px;
+}
+
+p img {
+    float: right;
+}
+
+hr {
+    border-top: 1px dotted #BDC496;
+    border-bottom: 0px;
+}
+
+h1, h1 a {
+	font-size: 60px;
+	width: 100%;
+	text-align: center;
+    font-weight: normal;
+    font-family: 'Cardo';
+    color: #044E7A;
+    padding-top: 0px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    text-decoration: none !important;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: normal;
+	margin-bottom: 1pt;
+    font-family: 'Cardo';
+    color: #376F7B !important;
+}
+
+div.comments {
+    margin-bottom: 50px;
+}
+
+div.postspanish h2, div.postspanish h2 a, div.postspanish a, div.postspanish h2 a:hover {
+    text-decoration: none !important;
+    color: #E05F00 !important;
+}
+
+div.postspanish p a:hover, div.postenglish p a:hover, a:hover {
+    text-decoration: underline !important;
+}
+
+div.postenglish h2, div.postenglish h2 a, div.postenglish a, a {
+    text-decoration: none;
+    color: #376F7B;
+}
+
+div.date {
+    width: 350px;
+    float: left;
+    color: #606060;
+}
+
+div.tags {
+    width: 350px;
+    float: left;
+    margin: 0px;
+    text-align: right;
+    color: #606060;
+}
+
+div.postbody {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+pre {
+    font-family: Courier, monospace;
+    font-size: 15px;
+    background-color: #EEF1DE;
+    padding: 15px;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+
+div#footer {
+    clear: both;
+    margin-top: 20px;
+    border-top: 1px solid #C0C0C0;
+}
+
+div#footer ul {
+	width: 680px;
+	margin-left: auto;
+	margin-right: auto;
+    padding: 0px 0px 25px 0px;
+
+}
+
+div#footer li {
+    list-style-type: none;
+    float: left;
+    margin: 0px 15px 0px 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+div#feed {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 0px;
+}
+
+div#feed img {
+    border: 0px;
+}
+
+div#pages {
+    padding-bottom: 23px;
+}
+
+div#pages p {
+    width: 100%;
+}
+
+div#pages p span#prev {
+    float: left;
+}
+
+div#pages p span#next {
+    float: right;
+}
+
+/* DISQUS stuff */
+
+div#disqus_thread a {
+    text-decoration: none !important;
+    color: #376F7B !important;
+}
+
+div#disqus_thread a:hover {
+    text-decoration: underline !important;
+}
+
+div#dsq-content {
+	font-size: 18px !important;
+}
+
+div#dsq-content h3, h3 {
+	font-size: 30px !important;
+    font-family: 'Cardo' !important;
+    font-weight: normal !important;
+    color: #376F7B !important;
+	margin-bottom: 7pt !important;
+}
+
+table.dsq-global-toolbar-container {
+    display: none !important;
+}
+
+a.dsq-brlink {
+    display: none !important;
+}
+
+div.dsq-item-trackback {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.dsq-trackback-url {
+    padding: 0px !important;
+}
+
+div#dsq-pagination {
+    display: none !important;
+}
