@@ -1,23 +1,30 @@
 body {
-	font-family: Palatino, Georgia, serif;
-	font-size: 18px;
+    font-family: Palatino, Georgia, serif;
+    font-size: 18px;
+    background: #C0C0C0;
     word-spacing: 0.1em;
-
     /* body is centered */
 	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
-html {
-    background-color: #E7EBD5;
 
-    background-image: url('/img/flower.png');
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 40%;
-    -moz-background-size: 40%;
+
+h1, h1 a {
+	font-size: 60px;
+	width: 100%;
+	text-align: center;
+    font-weight: normal;
+    font-family: 'Cardo';
+    color: #737373;
+    padding-top: 0px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    text-decoration: none !important;
 }
 
 a {
@@ -43,21 +50,6 @@ hr {
     border-bottom: 0px;
 }
 
-h1, h1 a {
-	font-size: 60px;
-	width: 100%;
-	text-align: center;
-    font-weight: normal;
-    font-family: 'Cardo';
-    color: #044E7A;
-    padding-top: 0px;
-    margin-top: 30px;
-    text-decoration: none;
-}
-
-h1 a:hover {
-    text-decoration: none !important;
-}
 
 h2 {
 	font-size: 40px;
@@ -67,13 +59,9 @@ h2 {
     color: #376F7B !important;
 }
 
-div.comments {
-    margin-bottom: 50px;
-}
-
 div.postspanish h2, div.postspanish h2 a, div.postspanish a, div.postspanish h2 a:hover {
     text-decoration: none !important;
-    color: #E05F00 !important;
+    color: #61314F !important;
 }
 
 div.postspanish p a:hover, div.postenglish p a:hover, a:hover {
@@ -82,7 +70,7 @@ div.postspanish p a:hover, div.postenglish p a:hover, a:hover {
 
 div.postenglish h2, div.postenglish h2 a, div.postenglish a, a {
     text-decoration: none;
-    color: #376F7B;
+    color: #61314F;
 }
 
 div.date {
@@ -167,46 +155,3 @@ div#pages p span#next {
     float: right;
 }
 
-/* DISQUS stuff */
-
-div#disqus_thread a {
-    text-decoration: none !important;
-    color: #376F7B !important;
-}
-
-div#disqus_thread a:hover {
-    text-decoration: underline !important;
-}
-
-div#dsq-content {
-	font-size: 18px !important;
-}
-
-div#dsq-content h3, h3 {
-	font-size: 30px !important;
-    font-family: 'Cardo' !important;
-    font-weight: normal !important;
-    color: #376F7B !important;
-	margin-bottom: 7pt !important;
-}
-
-table.dsq-global-toolbar-container {
-    display: none !important;
-}
-
-a.dsq-brlink {
-    display: none !important;
-}
-
-div.dsq-item-trackback {
-    margin: 0px !important;
-    padding: 0px !important;
-}
-
-.dsq-trackback-url {
-    padding: 0px !important;
-}
-
-div#dsq-pagination {
-    display: none !important;
-}
