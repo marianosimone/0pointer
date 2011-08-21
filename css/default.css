@@ -9,8 +9,6 @@ body {
 	margin-right: auto;
 }
 
-
-
 h1, h1 a {
 	font-size: 60px;
 	width: 100%;
@@ -29,7 +27,7 @@ h1 a:hover {
 
 a {
     text-decoration: none;
-    color: #376F7B;
+    color: #737373;
 }
 
 a:hover {
@@ -56,7 +54,7 @@ h2 {
 	font-weight: normal;
 	margin-bottom: 1pt;
     font-family: 'Cardo';
-    color: #376F7B !important;
+    color: ##737373 !important;
 }
 
 div.postspanish h2, div.postspanish h2 a, div.postspanish a, div.postspanish h2 a:hover {
