@@ -59,7 +59,7 @@ h2 {
 
 div.postspanish h2, div.postspanish h2 a, div.postspanish a, div.postspanish h2 a:hover {
     text-decoration: none !important;
-    color: #61314F !important;
+    color: #737373 !important;
 }
 
 div.postspanish p a:hover, div.postenglish p a:hover, a:hover {
@@ -68,7 +68,7 @@ div.postspanish p a:hover, div.postenglish p a:hover, a:hover {
 
 div.postenglish h2, div.postenglish h2 a, div.postenglish a, a {
     text-decoration: none;
-    color: #61314F;
+    color: #737373;
 }
 
 div.date {
