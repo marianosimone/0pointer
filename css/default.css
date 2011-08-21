@@ -48,13 +48,12 @@ hr {
     border-bottom: 0px;
 }
 
-
 h2 {
 	font-size: 40px;
 	font-weight: normal;
 	margin-bottom: 1pt;
     font-family: 'Cardo';
-    color: ##737373 !important;
+    color: #737373 !important;
 }
 
 div.postspanish h2, div.postspanish h2 a, div.postspanish a, div.postspanish h2 a:hover {
