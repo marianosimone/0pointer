@@ -8,7 +8,7 @@ syntax-highlighting: yes
    {% for post in site.posts %}
        {% for tag in post.tags %}
            {% if tag == 'blog'%}
-               {% include post.html %}
+               <a href='{% post.url %}'> {% post.title %}</a>
            {% endif %}
        {% endfor %}
    {% endfor %}
