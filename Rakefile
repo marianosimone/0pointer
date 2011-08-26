@@ -31,12 +31,14 @@ task :tags  => :tag_cloud do
     html = <<-HTML
 ---
 layout: default
-title: "Tag archive: #{tag}"
+title: "Tag Archive: #{tag}"
 ---
 <h1>Posts tagged with "#{tag}"</h1>
 <ul>
 {% for post in site.tags.#{tag} %}
-  <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
 {% endfor %}
 </ul>
 HTML
