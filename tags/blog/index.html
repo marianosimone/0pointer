@@ -1,1 +1,10 @@
-Hello World!
+---
+layout: default
+title: "Tag archive: blog"
+---
+<h1>Posts tagged with "blog"</h1>
+<ul>
+{% for post in site.tags.blog %}
+  <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+{% endfor %}
+</ul>
