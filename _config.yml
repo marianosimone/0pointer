@@ -1,6 +1,7 @@
 pygments: true
 permalink: pretty
 paginate: 3
+name: 0pointer
 baseurl: /0pointer
 siteurl: http://www.marianosimone.com.ar
-personalurl: www.marianosimone.com.ar
+personalurl: http://www.marianosimone.com.ar
