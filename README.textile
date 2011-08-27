@@ -1,0 +1,7 @@
+This is the data for my blog
+
+It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into a static site whenever I push this repository to GitHub.
+
+A plain-text blog, without databases and a big infraestructure beneath is not what I want anymore (i tried Blogger and Wordpress).
+
+All the content on this blog is released to the public domain, unless specified. Feel free to download, fork, remix or do WTFYW
