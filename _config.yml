@@ -1,7 +1,11 @@
 pygments: true
 permalink: pretty
 paginate: 3
-name: 0pointer
 baseurl: /0pointer
 siteurl: http://www.marianosimone.com.ar
+
+# Custom conf
+name: 0pointer
+tagline: pointing nowhere
 personalurl: http://www.marianosimone.com.ar
+

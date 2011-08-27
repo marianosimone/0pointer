@@ -12,9 +12,8 @@
 </head>
 
 <body>
-
-<h1><a href="{{site.baseurl}}">0Pointer - Pointing Nowhere</a></h1>
-
+<h1><a href="{{site.baseurl}}">{{site.name}}</a></h1>
+<h2 style="text-align:right">{{site.tagline}}</h2>
 {{ content }}
 
 <div id="footer">
@@ -25,12 +24,12 @@
         <li><a href="{{site.baseurl}}/credits/">Credits</a></li>
     </ul>
 </div>
-<!--
+
 <div id="feed">
-    <a href="http://feeds.feedburner.com/?" id="feed">
-        <img src="/img/feed.png" alt="Subscribe!" />
+    <a href="{{site.siteurl}}{{site.baseurl}}/atom.xml" id="feed">
+        <img src="img/feed.png" alt="Subscribe!" />
     </a>
 </div>
--->
+
 </body>
 </html>

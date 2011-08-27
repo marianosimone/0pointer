@@ -1,7 +1,6 @@
 ---
 layout: post
-lang: spanish
-title: ¡Nuevo blog!
+title: ¡New blog!
 
 tags:
 - blog

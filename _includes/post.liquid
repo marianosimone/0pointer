@@ -1,8 +1,4 @@
-{% if post.lang == "spanish" %}
-<div class="postspanish">
-{% else %}
-<div class="postenglish">
-{% endif %}
+<div class="post">
     <h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
     <div class="date">
         posted on <span class="date">{{ post.date | date_to_long_string }}</span>

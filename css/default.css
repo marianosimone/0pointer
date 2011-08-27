@@ -4,7 +4,7 @@ body {
     background: #C0C0C0;
     word-spacing: 0.1em;
     /* body is centered */
-	width: 700px;
+	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -16,7 +16,7 @@ h1, h1 a {
     font-weight: normal;
     font-family: 'Cardo';
     color: #737373;
-    padding-top: 0px;
+    padding: 0px;
     margin-top: 30px;
     text-decoration: none;
 }
@@ -56,18 +56,13 @@ h2 {
     color: #61314F !important;
 }
 
-div.postspanish h2, div.postspanish h2 a, div.postspanish a, div.postspanish h2 a:hover {
+div.post h2, div.post h2 a, div.post a, div.post h2 a:hover {
     text-decoration: none !important;
     color: #61314F !important;
 }
 
-div.postspanish p a:hover, div.postenglish p a:hover, a:hover {
+div.post p a:hover, div.post p a:hover, a:hover {
     text-decoration: underline !important;
-}
-
-div.postenglish h2, div.postenglish h2 a, div.postenglish a, a {
-    text-decoration: none;
-    color: #61314F;
 }
 
 div.date {
