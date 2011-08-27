@@ -1,5 +1,5 @@
 pygments: true
-permalink: pretty
+permalink: none
 paginate: 3
 baseurl: /0pointer
 siteurl: http://www.marianosimone.com.ar
