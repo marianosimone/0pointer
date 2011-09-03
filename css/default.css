@@ -86,6 +86,9 @@ div.postbody {
     padding-bottom: 10px;
 }
 
+div.video {
+    text-align:center;
+}
 pre {
     font-family: Courier, monospace;
     font-size: 15px;
