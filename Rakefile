@@ -9,7 +9,7 @@ task :build => :tags do
 end
 
 desc "Serve on Localhost with port 4000"
-task :default do
+task :default => :build do
   jekyll("--server --auto")
 end
 
@@ -67,7 +67,7 @@ task :tag_cloud do
   site.tags.sort.each do |tag, posts|
     s = posts.count
     font_size = ((20 - 10.0*(max_count-s)/max_count)*2).to_i/2.0
-    html << "<a href=\"{{site.baseurl}}/tags/#{tag}\" title=\"Postings tagged #{tag}\" style=\"font-size: #{font_size}px; line-height:#{font_size}px\">#{tag}</a> " << "\n"
+    html << "<a href=\"{{site.baseurl}}/tags/#{tag}\" title=\"Postings tagged #{tag}\" style=\"font-size: #{font_size}px; line-height:#{font_size}px\">#{tag} </a> " << "\n"
   end
   File.open('_includes/tag_cloud.html', 'w+') do |file|
     file.puts html
