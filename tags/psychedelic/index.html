@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: psychedelic"
+---
+<h2>Posts tagged with "psychedelic"</h2>
+<ul>
+{% for post in site.tags.psychedelic %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
