@@ -1,6 +1,6 @@
 pygments: true
 permalink: none
-paginate: 3
+paginate: 7
 baseurl: /0pointer
 siteurl: http://www.marianosimone.com.ar
 
@@ -8,4 +8,3 @@ siteurl: http://www.marianosimone.com.ar
 name: 0pointer
 tagline: pointing nowhere
 personalurl: http://www.marianosimone.com.ar
-
