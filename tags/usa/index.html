@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: usa"
+---
+<h2>Posts tagged with "usa"</h2>
+<ul>
+{% for post in site.tags.usa %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
