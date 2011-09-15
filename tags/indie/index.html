@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: indie"
+---
+<h2>Posts tagged with "indie"</h2>
+<ul>
+{% for post in site.tags.indie %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
