@@ -18,6 +18,7 @@ h1, h1 a {
     color: #737373;
     padding: 0px;
     margin-top: 30px;
+    margin-bottom: 5px;
     text-decoration: none;
 }
 
@@ -47,7 +48,7 @@ hr {
 h2 {
 	font-size: 40px;
 	font-weight: normal;
-	margin-bottom: 1pt;
+	margin: 0;
     font-family: 'Cardo';
     color: #61314F !important;
 }
