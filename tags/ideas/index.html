@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: ideas"
+---
+<h2>Posts tagged with "ideas"</h2>
+<ul>
+{% for post in site.tags.ideas %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
