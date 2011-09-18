@@ -39,10 +39,6 @@ p, ul {
     width: 600px;
 }
 
-p img {
-    float: right;
-}
-
 hr {
     border-top: 1px dotted #BDC496;
     border-bottom: 0px;
