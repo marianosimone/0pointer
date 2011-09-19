@@ -146,3 +146,14 @@ div#pages p span#next {
     float: right;
 }
 
+blockquote {
+	background: url("/0pointer/img/close-quote.gif") no-repeat right bottom;
+	padding-left: 18px;
+	text-indent: -18px;
+}
+
+blockquote:first-letter {
+	background: url("/0pointer/img/open-quote.gif") no-repeat left top;
+	padding-left: 18px;
+}
+
