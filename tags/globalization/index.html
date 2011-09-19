@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: globalization"
+---
+<h2>Posts tagged with "globalization"</h2>
+<ul>
+{% for post in site.tags.globalization %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>

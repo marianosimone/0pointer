@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: humanism"
+---
+<h2>Posts tagged with "humanism"</h2>
+<ul>
+{% for post in site.tags.humanism %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
