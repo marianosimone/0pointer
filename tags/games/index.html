@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: games"
+---
+<h2>Posts tagged with "games"</h2>
+<ul>
+{% for post in site.tags.games %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
