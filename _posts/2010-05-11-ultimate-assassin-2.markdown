@@ -10,7 +10,13 @@ Basically, there are two types of players (regarding shooters): The "Rambo"-like
 In [Ultimate Assassin 2](http://www.games121.com/2009/06/ultimate-assassin-2.html), you HAVE to be an other
 
 <div style="text-align:center">
-    <img src="uploads/ultimate_assassin_2.png" alt="exhibition catalogue bigger than exhibition"/>
+    <img src="uploads/ultimate_assassin_2.png" alt="ultimate assasin 2 screenshot"/>
 </div>
 
 You can't kill everyone... just the level's "target". The only thing you have to do is find the target without being noticed, kill him and run.
+
+<div style="text-align:center">
+    <embed src="http://games.mochiads.com/c/g/ultimate-assassin-2_0/ua20_games121com_secure.swf" width="550" height="400" ></embed>
+</div>
+
+
