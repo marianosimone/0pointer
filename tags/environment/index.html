@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: environment"
+---
+<h2>Posts tagged with "environment"</h2>
+<ul>
+{% for post in site.tags.environment %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
