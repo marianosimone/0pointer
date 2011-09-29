@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: philosophy"
+---
+<h2>Posts tagged with "philosophy"</h2>
+<ul>
+{% for post in site.tags.philosophy %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
