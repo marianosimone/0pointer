@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: paradox"
+---
+<h2>Posts tagged with "paradox"</h2>
+<ul>
+{% for post in site.tags.paradox %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
