@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: nature"
+---
+<h2>Posts tagged with "nature"</h2>
+<ul>
+{% for post in site.tags.nature %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>

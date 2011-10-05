@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: photography"
+---
+<h2>Posts tagged with "photography"</h2>
+<ul>
+{% for post in site.tags.photography %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
