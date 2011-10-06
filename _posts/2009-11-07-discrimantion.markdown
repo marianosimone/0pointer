@@ -13,4 +13,4 @@ It's OK to discriminate: you are selecting and excluding something. You discrimi
 <abbr title="Spanish word for a South American">sudaca</abbr>, i'm a woman. You are the one who's different, moron</blockquote>
 </div>
 
-The banner is part of a collection named "¿Diferentes?" ("Different?"), designed for [Motiva 2008](http://www.escueladearte.com/Actividades/Motiva/Motiva2008/index.htm) (where you can download the full catalogue)
+The banner is part of a collection named "¿Diferentes?" ("Different?"), designed for [Motiva 2008](http://www.escueladearte.com/Actividades/Motiva/Motiva2008/index.htm) (where you can download the [full catalogue](http://www.escueladearte.com/Actividades/Motiva/Motiva2008/Fichas/Catalogo_Motiva_08.pdf))
