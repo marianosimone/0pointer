@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: creativity"
+---
+<h2>Posts tagged with "creativity"</h2>
+<ul>
+{% for post in site.tags.creativity %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
