@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: WTF"
+---
+<h2>Posts tagged with "WTF"</h2>
+<ul>
+{% for post in site.tags.WTF %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
