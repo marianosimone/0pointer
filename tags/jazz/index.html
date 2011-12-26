@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: jazz"
+---
+<h2>Posts tagged with "jazz"</h2>
+<ul>
+{% for post in site.tags.jazz %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
