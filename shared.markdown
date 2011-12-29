@@ -2,6 +2,11 @@
 layout: default
 title: Shared Items by marianosimone
 ---
+
+Shared Items on Del.icio.us
+------------------
+Check the [full rss](http://delicious.com/v2/rss/marianosimone/Shared)
+
 <div>
   <script type="text/javascript">
   function parseRSS(url, callback) {
@@ -27,6 +32,7 @@ title: Shared Items by marianosimone
 
     $(document).ready(function(){ parseRSS("http://delicious.com/v2/rss/marianosimone/Shared", showRSS);});
   </script>
+
 <ul id="feedlist">
 </ul>
 
