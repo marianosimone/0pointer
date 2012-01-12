@@ -2,9 +2,9 @@ pygments: true
 permalink: none
 paginate: 7
 baseurl: /0pointer
-siteurl: http://www.marianosimone.com.ar
+siteurl: http://marianosimone.com.ar
 
 # Custom conf
 name: 0pointer
 tagline: pointing nowhere
-personalurl: http://www.marianosimone.com.ar
+personalurl: http://marianosimone.com.ar
