@@ -16,4 +16,4 @@ I just finished watching [Pioneer One](http://pioneerone.tv)'s first season and 
 {% assign videoid = '29811146' %}
 {% include vimeo_video.html %}
 
-Its awesomness is not only about the story, but also about how its creators developed it: They filmed the first episode and asked for donations on (VODO)[http://vodo.net/] until they reached their goal. Today, we can watch 6 great episodes, and expect a second season.
+Its awesomness is not only about the story, but also about how its creators developed it: They filmed the first episode and asked for donations on [VODO](http://vodo.net/) until they reached their goal. Today, we can watch 6 great episodes, and expect a second season.
