@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: software"
+---
+<h2>Posts tagged with "software"</h2>
+<ul>
+{% for post in site.tags.software %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
