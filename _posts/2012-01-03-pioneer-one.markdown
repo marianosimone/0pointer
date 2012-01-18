@@ -5,6 +5,7 @@ title: pioneer one
 tags:
 - geek
 - scifi
+- series
 ---
 
 <div style="text-align:center">
