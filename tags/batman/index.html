@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: batman"
+---
+<h2>Posts tagged with "batman"</h2>
+<ul>
+{% for post in site.tags.batman %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
