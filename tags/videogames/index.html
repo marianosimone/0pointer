@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: videogames"
+---
+<h2>Posts tagged with "videogames"</h2>
+<ul>
+{% for post in site.tags.videogames %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
