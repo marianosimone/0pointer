@@ -51,7 +51,7 @@ HTML
   puts 'Done.'
 end
 
-desc 'Generate tags pages'
+desc 'Generate tag cloud page'
 task :tag_cloud do
   puts 'Generating tag cloud...'
   require 'rubygems'
