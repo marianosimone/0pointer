@@ -1,0 +1,12 @@
+---
+layout: post
+title: Radical Revolution
+
+tags:
+- improve
+- short
+---
+"[Validation](http://www.imdb.com/title/tt0986272/)" by [Kurt Kuenne](http://www.imdb.com/name/nm0473936/) is a nice short film that shows us how "easily" we could make someone feel better... Let's go change the world!
+
+{% assign videoid = 'Cbk980jV7Ao' %}
+{% include youtube_video.html %}
