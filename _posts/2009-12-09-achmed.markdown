@@ -1,0 +1,11 @@
+---
+layout: post
+title: achmed - the dead terrorist
+
+tags:
+- humor
+---
+One of the creations of [Jedd Dunham](http://www.jeffdunham.com/) is "Achmed", a skeleton terrorist puppet with an acid but naïve humor.
+
+{% assign videoid = '1uwOL4rB-go' %}
+{% include youtube_video.html %}
