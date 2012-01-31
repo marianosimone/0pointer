@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: campaign"
+---
+<h2>Posts tagged with "campaign"</h2>
+<ul>
+{% for post in site.tags.campaign %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
