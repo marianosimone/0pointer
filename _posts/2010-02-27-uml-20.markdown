@@ -1,0 +1,16 @@
+---
+layout: post
+title: UML 2.0
+
+tags:
+- dev
+- software
+- tools
+---
+I always found tedious to layout a digital UML class digram (I tried [ArgoUML](http://argouml.tigris.org/), [StarUML](http://staruml.sourceforge.net/), [Dia](http://projects.gnome.org/dia/), and a bunch more). Finally, I found [yUML](http://yuml.me/):
+
+<div style="text-align:center">
+    <img src="uploads/yuml_diagram.png" alt="diagram made using yUML"/>
+</div>
+
+Even though I think is impossible to draw large diagrams with this web app, the results are nice-looking and layout is handled automagically. The given examples are very illustratrive and the syntax is simple but complete.
