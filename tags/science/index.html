@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: science"
+---
+<h2>Posts tagged with "science"</h2>
+<ul>
+{% for post in site.tags.science %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>

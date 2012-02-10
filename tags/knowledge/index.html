@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: knowledge"
+---
+<h2>Posts tagged with "knowledge"</h2>
+<ul>
+{% for post in site.tags.knowledge %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
