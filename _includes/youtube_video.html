@@ -1,3 +1,8 @@
 <div class="video">
     <iframe width="560" height="345" src="http://www.youtube.com/embed/{{videoid}}" frameborder="0" allowfullscreen="true">placeholder</iframe>
+    <p>
+    {% if video_description %}
+        {{video_description}}
+    {%endif%}
+    </p>
 </div>
