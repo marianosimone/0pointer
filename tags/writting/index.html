@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tag Archive: writting"
+---
+<h2>Posts tagged with "writting"</h2>
+<ul>
+{% for post in site.tags.writting %}
+  <li>
+    <a href='{{site.baseurl}}{{ post.url }}'> {{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
