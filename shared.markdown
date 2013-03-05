@@ -11,7 +11,7 @@ Check the [full rss](http://delicious.com/v2/rss/marianosimone/Shared)
   <script type="text/javascript">
   function parseRSS(url, callback) {
       $.ajax({
-        url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&q=' + encodeURIComponent(url),
+        url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&amp;callback=?&amp;q=' + encodeURIComponent(url),
         dataType: 'json',
         success: function(data) {
           callback(data.responseData.feed);
