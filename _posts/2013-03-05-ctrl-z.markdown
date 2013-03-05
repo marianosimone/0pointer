@@ -1,0 +1,12 @@
+---
+layout: post
+title: ctrl + z in RealLife™
+
+tags:
+- humor
+---
+Found an old comic strip I draw a couple of years ago:
+
+<div style="text-align:center">
+    <img src="uploads/ctrlz.png" alt="ctrl+z doesn't work in the RealLife&#8482;"/>
+</div>
