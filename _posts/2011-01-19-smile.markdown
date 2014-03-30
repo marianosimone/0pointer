@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Radical Revolution
+title: Smile
 
 tags:
 - improve
